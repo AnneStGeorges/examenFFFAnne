@@ -1,0 +1,14 @@
+<div *ngIf="!isLoading && joueur" class="text-center">
+
+  <ul class="row" >
+    <li class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">{{joueur.prenom}} {{joueur.nom}}</h5>
+        <p class="card-text">Poste : {{joueur.poste}}</p>
+        <img class="img-fluid mb-3" src="{{joueur.image}}">
+      </div>
+    </li>
+  </ul>
+
+
+</div>

@@ -1,0 +1,60 @@
+<div *ngIf="!isLoading && joueurs" class="text-center">
+  <h2>GARDIENS</h2>
+<div  class="row " *ngFor="let joueur of joueurs">
+  <ul *ngIf="joueur.poste==='gardien'">
+    <li class="card " style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">{{joueur.prenom}} {{joueur.nom}}</h5>
+        <img class="img-fluid mb-3" src="{{joueur.image}}">
+        <a href="#" class="btn btn-primary details col-6" [routerLink]="['detailsJoueur/' + joueur.id]">Détails</a>
+        <a *ngIf="joueur.id" (click)="delete(joueur.id)" class="btn btn-primary supp col-6"> Supprimer</a>
+      </div>
+    </li>
+  </ul>
+</div>
+  <h2>DEFENSEURS</h2>
+  <div  class="row " *ngFor="let joueur of joueurs">
+    <ul class='d-flex' *ngIf="joueur.poste==='defenseur'">
+      <li class="card row" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{joueur.prenom}} {{joueur.nom}}</h5>
+          <img class="img-fluid mb-3" src="{{joueur.image}}">
+          <a href="#" class="btn btn-primary details col-6" [routerLink]="['detailsJoueur/' + joueur.id]">Détails</a>
+          <a *ngIf="joueur.id" (click)="delete(joueur.id)" class="btn btn-primary supp col-6"> Supprimer</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <h2>MILIEUX</h2>
+  <div  class="row " *ngFor="let joueur of joueurs">
+    <ul *ngIf="joueur.poste==='milieu'">
+      <li class="card " style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{joueur.prenom}} {{joueur.nom}}</h5>
+          <img class="img-fluid mb-3" src="{{joueur.image}}">
+          <a href="#" class="btn btn-primary details col-6" [routerLink]="['detailsJoueur/' + joueur.id]">Détails</a>
+          <a *ngIf="joueur.id" (click)="delete(joueur.id)" class="btn btn-primary supp col-6"> Supprimer</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <h2>ATTAQUANTS</h2>
+  <div  class="row " *ngFor="let joueur of joueurs">
+    <ul *ngIf="joueur.poste==='attaquant'">
+      <li class="card " style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{joueur.prenom}} {{joueur.nom}}</h5>
+
+          <img class="img-fluid mb-3" src="{{joueur.image}}">
+          <a href="#" class="btn btn-primary details col-6" [routerLink]="['detailsJoueur/' + joueur.id]">Détails</a>
+          <a *ngIf="joueur.id" (click)="delete(joueur.id)" class="btn btn-primary supp col-6"> Supprimer</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+

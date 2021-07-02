@@ -1,0 +1,39 @@
+{
+  "players": [
+    {
+      "nom": "Pavard",
+      "prenom": "Benjamin",
+      "poste": "defenseur",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/96c6a225e130061181000c4fff5b2ee0.png?twic=v1/focus=622x382/cover=280x400",
+      "id": 5
+    },
+    {
+      "nom": "Pogba",
+      "prenom": "Paul",
+      "poste": "milieu",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/8e405ac06489bb95e00f59b73c99abb8.png?twic=v1/focus=507x206/cover=280x400",
+      "id": 6
+    },
+    {
+      "nom": "Benzema",
+      "prenom": "Karim",
+      "poste": "attaquant",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/a3405b4d54a65136ebb1874341e383b2.png?twic=v1/focus=778x336/cover=280x400",
+      "id": 7
+    },
+    {
+      "nom": "Griezmann",
+      "prenom": "Antoine",
+      "poste": "attaquant",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/f7f8150e1ea239a8d0e8bf9ab258aebe.png?twic=v1/focus=831x331/cover=280x400",
+      "id": 8
+    },
+    {
+      "nom": "Maignan",
+      "prenom": "Mike",
+      "poste": "gardien",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/bc4378336f4684045db48a2f8fc34d20.png?twic=v1/focus=727x351/cover=280x400",
+      "id": 9
+    }
+  ]
+}
